@@ -1,10 +1,10 @@
 package main
  
 import (
-    "fmt"
-	_ "github.com/gorilla/mux"
+//    "fmt"
+//    _ "github.com/gorilla/mux"
 )
- 
-func main() {
-    fmt.Printf("Привет мир")
+var Test = "Test Package"
+func Test(t) {
+//    fmt.Printf(t)
 }
